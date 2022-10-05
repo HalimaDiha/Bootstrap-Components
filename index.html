@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- acc_1 start -->
+    <section class="acc_1">
+      <div class="container">
+        <h1>Accordion Example</h1>
+        <div class="row">
+          <div class="col-lg-12">
+
+            <div class="accordion" id="accex_1">
+              <!--item1-->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="h_one">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c_one" aria-expanded="true" aria-controls="c_one">
+                    Lorem ipsum dolor sit amet?
+                  </button>
+                </h2>
+                <div id="c_one" class="accordion-collapse collapse show" aria-labelledby="h_one" data-bs-parent="#accex_1">
+                  <div class="accordion-body">
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                </div>
+              </div>
+              <!--item2-->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="h_two">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c_two" aria-expanded="false" aria-controls="c_two">
+                    Lorem ipsum dolor sit amet?
+                  </button>
+                </h2>
+                <div id="c_two" class="accordion-collapse collapse" aria-labelledby="h_two" data-bs-parent="#accex_1">
+                  <div class="accordion-body">
+                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- acc_1 end -->
+<!-- acc_2 start -->
+    <section class="acc_2">
+      <div class="container">
+        <h1>Accordion Example Flush</h1>
+        <div class="row">
+          <div class="colo-lg-12">
+
+            <div class="accordion accordion-flush" id="accex_2">
+              <!--item 1-->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="f_h_one">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f_c_one" aria-expanded="false" aria-controls="f_c_one">
+                    Lorem ipsum dolor sit amet?
+                  </button>
+                </h2>
+                <div id="f_c_one" class="accordion-collapse collapse" aria-labelledby="f_h_one" data-bs-parent="#accex_2">
+                  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+              <!--item 2-->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="f_h_two">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f_c_two" aria-expanded="false" aria-controls="f_c_two">
+                    Lorem ipsum dolor sit amet?
+                  </button>
+                </h2>
+                <div id="f_c_two" class="accordion-collapse collapse" aria-labelledby="f_h_two" data-bs-parent="#accex_2">
+                  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
+<!-- acc_2 end -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
